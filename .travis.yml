@@ -10,5 +10,5 @@ before_install:
   - ./scripts/sauce_connect_setup.sh
   - gem update --system
   - gem install sass --version "=3.3.7"
-  - npm install -g bower grunt-cli
+  - npm install -g bower grunt-cli node-gyp
 services: mongodb
